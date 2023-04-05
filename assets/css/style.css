@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    background-color: #888888;
+    height: 80vh;
+}
+
+header h1 {
+    margin-left: 1rem;
+}
+
+
+footer {
+    height: 10vh;
+}
+
+.selectDiff,
+header h3 {
+    margin-right: 1rem;
+}
+
+.selectDiff {
+    margin-left: 1rem;
+}
+
+.container {
+    height: 100%;
+    aspect-ratio: 1;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.griglia {
+    aspect-ratio: 1;
+    margin: 0 auto;
+    border: 1px solid black;
+    display: none;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(189,189,189);
+}
+
+.flex {
+    display: flex;
+}
+
+.box {
+    border: 1px solid black;
+    aspect-ratio: 1;
+    text-align: center;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+.w80 {
+    width: 100%;
+}
+
+.w72 {
+    width: 70%;
+}
+
+.w56 {
+    width: 50%;
+}
+
+
+.sq10 {
+    flex-basis: 10%;   
+}
+
+.sq9 {
+    flex-basis: calc(100% / 9);
+}
+
+.sq7 {
+    flex-basis: calc(100% / 7);
+}
+
+.blu {
+    background-color: rgb(0,0,255);
+    color: white;
+}
+
+.rosso {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.none {
+    display: none;
+}
+
+#difficoltacontainer {
+    margin-right: 1rem;
+    align-items: center;
+}
+
+#selectButton {
+    padding: 5px 10px;
+}
+
+#ricomincia,
+#actualScore {
+    margin-right: 1rem;
+}
+
+
+#ricomincia {
+    font-size: 2rem;
+    color: red;
+    text-decoration: none;
+    cursor: pointer;
+}
